@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Urbanist";
+}
+
+header {
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  background: linear-gradient(94.59deg, #4923b4 2.39%, #a40a83 97.66%);
+  background-repeat: repeat;
+}
+
+header .menu {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 80px;
+}
+
+header.menu .ul .li a {
+  position: fixed;
+  display: inline-block;
+  text-decoration: none;
+}
+
+header .menu a {
+  color: rgb(2, 2, 2);
+  padding: 8px 12px;
+  border-radius: 3px;
+  transition: 200ms;
+  display: inline-flex;
+  text-decoration: none;
+}
+
+header .menu .ativo,
+.header .menu a:hover {
+  color: #0c0507;
+  background-color: #0c0507;
+}
+
+.principal {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.principal h2 {
+  position: absolute;
+  width: 773.17px;
+  height: 192px;
+  left: 158.15px;
+  top: 264.75px;
+
+  font-weight: 700;
+  font-size: 70.2885px;
+  line-height: 94px;
+}
+
+.frase strong p {
+  position: absolute;
+  width: 617.37px;
+  height: 117px;
+  left: 158.15px;
+  top: 468.59px;
+
+  font-weight: 400;
+  font-size: 25.7724px;
+  line-height: 39px;
+
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+}
+
+
+.button button {
+    background: #FF00C7;
+    position: fixed;
+    width: 144px;
+    height: 36px;
+    left: 180px;
+    margin-top: 175px;
+    border: none;
+    border-radius: 14.0577px;
+  
+    
+
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 28px;
+
+}
+
+ .button2 button {
+  background: #FF00C7; 
+  position: fixed;
+  width: 144px;
+  height: 36px;
+  right: 1050px;
+  margin-top: 175px;
+  border: none;
+  border-radius: 14.0577px;
+
+  font-family: 'Urbanist';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 28px;
+}
+
+.text p {
+  font-family: 'Urbanist';
+  margin-top: 500px;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 28px;    
+}
